@@ -1,7 +1,7 @@
 (ns player.main
   (:require [player.core :as core]
             [figwheel.client :as figwheel :include-macros true]
-            [cljs.core.async :refer [put!]]
+            ; [cljs.core.async :refer [put!]]
             [weasel.repl :as weasel]))
 
 (enable-console-print!)
